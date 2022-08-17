@@ -13,7 +13,7 @@ public class CityDTO implements Serializable {
 	
 	private Long id;
 	
-	@NotBlank(message = "Required field")
+	@NotBlank(message = "Campo requerido")
 	private String name;
 	
 	private List<EventDTO> events = new ArrayList<>();
